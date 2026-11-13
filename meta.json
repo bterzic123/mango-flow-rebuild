@@ -1,0 +1,25 @@
+{
+  "scope": "flow",
+  "today": {
+    "text": "every install picks a language, is asked about notifications twice, then meets one “Fluency favors the bold.” paywall on the Monthly tab",
+    "source": "audit_frames"
+  },
+  "prices": {
+    "monthly": "14,99 €",
+    "yearly": "129,99 €",
+    "family_monthly": "22,99 €",
+    "family_yearly": "179,99 €",
+    "trial": "14 days",
+    "source": "Mango iOS paywall, EU storefront, recorded 13 November 2026; US App Store listing ($13.99 / $119.99, $19.99 / $149.99)"
+  },
+  "asks": ["Pick a Language"],
+  "paywall": { "headline": "Fluency favors the bold.", "uses_answers": false },
+  "rebuild": "the language they pick names the paywall headline, the loader and the first-chapter screen, and the paywall opens on Yearly",
+  "ideas": [
+    { "n": 1, "title": "Name their language on the paywall", "screen": "Paywall", "outcome": "CR +15–20%" },
+    { "n": 2, "title": "Show the first chapter before the price", "screen": "First chapter", "outcome": "CR +10–15%" },
+    { "n": 3, "title": "Open on Yearly, with your own saving on it", "screen": "Paywall", "outcome": "ARPU +10–15%" },
+    { "n": 4, "title": "Ask about notifications after the paywall", "screen": "Stay on track.", "outcome": "CR +10–15%" },
+    { "n": 5, "title": "Let the loader say their language back", "screen": "Loader", "outcome": "CR +10–15%" }
+  ]
+}
